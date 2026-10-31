@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About TaxTalk</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Poppins, Arial, sans-serif;
+    background:linear-gradient(135deg,#00fff2,#7ed6ff);
+    min-height:100vh;
+    padding:20px;
+}
+
+nav{
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:600;
+    margin:0 20px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#0066ff;
+}
+
+.active{
+    color:#ff3b5c;
+}
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.intro{
+    text-align:center;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.info-card{
+    background:#f5f8ff;
+    border-left:6px solid #478fec;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.info-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    background:#eaf1ff;
+}
+
+.info-title{
+    font-size:1.3rem;
+    font-weight:700;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.info-text{
+    color:#666;
+    line-height:1.6;
+}
+
+.values-list{
+    list-style:none;
+    padding:0;
+}
+
+.values-list li{
+    margin-bottom:12px;
+    color:#666;
+    line-height:1.5;
+}
+
+footer{
+    text-align:center;
+    margin-top:30px;
+    color:#666;
+    font-size:14px;
+}
+
+@media(max-width:600px){
+
+    h1{
+        font-size:2rem;
+    }
+
+    .container{
+        padding:20px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+   <a href="index.html" >Home</a>
+    <a href="Articles.html">Articles</a>
+    <a href="Resources.html">Resources</a>
+    <a href="about.html" class="active">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+    <h1>About TaxTalk</h1>
+
+    <p class="intro">
+        Helping students, individuals, and small business owners understand taxes through clear, reliable, and accessible information.
+    </p>
+
+    <div class="info-card">
+        <div class="info-title">🎯 Our Mission</div>
+        <div class="info-text">
+            At TaxTalk, our mission is to make tax information simple,
+            accessible, and understandable for everyone. We provide clear
+            explanations, helpful resources, and up-to-date insights so
+            individuals, students, and small business owners can make
+            informed financial decisions with confidence.
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-title">🌍 Our Vision</div>
+        <div class="info-text">
+            Our vision is to be a trusted source of tax education and guidance.
+            We strive to empower users with the knowledge and tools they need
+            to navigate financial decisions and tax responsibilities confidently.
+        </div>
+    </div>
+
+    <div class">
+        <div class="info-title">⭐ Our Values</div>
+
+        <ul class="values-list">
+            <li><strong>Integrity:</strong> We provide accurate and reliable information.</li>
+            <li><strong>Accessibility:</strong> Tax information should be easy to understand.</li>
+            <li><strong>Empowerment:</strong> Knowledge helps people make informed decisions.</li>
+            <li><strong>Innovation:</strong> We continuously improve our resources and services.</li>
+        </ul>
+    </div>
+
+    <div class="info-card">
+        <div class="info-title">👥 Who We Serve</div>
+        <div class="info-text">
+            TaxTalk serves individuals, students, and small business owners.
+            Our goal is to provide practical tax information tailored to the
+            needs of each audience.
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Tax Education Resources
+    </footer>
+
+</div>
+
+</body>
+</html>

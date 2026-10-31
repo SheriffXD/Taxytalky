@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaxTalk - Home</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Poppins, Arial, sans-serif;
+    background:linear-gradient(135deg,#00fff2,#7ed6ff);
+    min-height:100vh;
+    padding:20px;
+}
+
+nav{
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:600;
+    margin:0 20px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#0066ff;
+}
+
+.active{
+    color:#ff3b5c;
+}
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.intro{
+    text-align:center;
+    color:#555;
+    margin-bottom:40px;
+    font-size:18px;
+    line-height:1.6;
+}
+
+.home-card{
+    display:block;
+    text-decoration:none;
+    background:#f5f8ff;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:15px;
+    border-left:6px solid #478fec;
+    transition:0.3s;
+}
+
+.home-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    background:#eaf1ff;
+}
+
+.home-title{
+    font-size:1.3rem;
+    font-weight:700;
+    color:#222;
+    margin-bottom:8px;
+}
+
+.home-description{
+    color:#666;
+    line-height:1.6;
+}
+
+footer{
+    text-align:center;
+    margin-top:30px;
+    color:#666;
+    font-size:14px;
+}
+
+@media(max-width:600px){
+
+    h1{
+        font-size:2rem;
+    }
+
+    .container{
+        padding:20px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+   <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="Articles.html">Articles</a>
+    <a href="Resources.html">Resources</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+</nav>
+
+<div class="container">
+
+    <h1>Welcome to TaxTalk</h1>
+
+    <p class="intro">
+        TaxTalk is your trusted source for learning about taxes.
+        Whether you're a student, individual taxpayer, or small business owner,
+        our goal is to help you understand tax concepts through educational
+        articles, resources, and practical guidance.
+    </p>
+
+    <a href="Articles.html" class="home-card">
+        <div class="home-title">📖 Explore Articles</div>
+
+        <div class="home-description">
+            Read educational articles covering tax basics, gross income,
+            filing deadlines, and other important tax topics.
+        </div>
+    </a>
+
+    <a href="Resources.html" class="home-card">
+        <div class="home-title">📚 Visit the Resource Center</div>
+
+        <div class="home-description">
+            Access guides, video tutorials, and official tax resources
+            to expand your understanding of taxation.
+        </div>
+    </a>
+
+    <a href="about.html" class="home-card">
+        <div class="home-title">🌟 Learn About TaxTalk</div>
+
+        <div class="home-description">
+            Discover our mission, vision, values, and commitment to
+            making tax information easy to understand.
+        </div>
+    </a>
+
+    <a href="contact.html" class="home-card">
+        <div class="home-title">📬 Get in Touch</div>
+
+        <div class="home-description">
+            Have questions or feedback? Contact us to learn more about TaxTalk
+            or share your thoughts.
+        </div>
+    </a>
+
+    <div class="home-card">
+        <div class="home-title">💡 Why Learn About Taxes?</div>
+
+        <div class="home-description">
+            Understanding taxes can help you make smarter financial decisions,
+            avoid common filing mistakes, and prepare for future financial
+            responsibilities.
+        </div>
+    </div>
+
+    <footer>
+        © 2026 TaxTalk
+    </footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact TaxTalk</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Poppins, Arial, sans-serif;
+    background:linear-gradient(135deg,#00fff2,#7ed6ff);
+    min-height:100vh;
+    padding:20px;
+}
+
+nav{
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:600;
+    margin:0 20px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#0066ff;
+}
+
+.active{
+    color:#ff3b5c;
+}
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.intro{
+    text-align:center;
+    color:#555;
+    margin-bottom:40px;
+    font-size:18px;
+}
+
+.contact-card{
+    background:#f5f8ff;
+    border-left:6px solid #478fec;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    background:#eaf1ff;
+}
+
+.contact-title{
+    font-size:1.3rem;
+    font-weight:700;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.contact-text{
+    color:#666;
+    line-height:1.7;
+}
+
+footer{
+    text-align:center;
+    margin-top:30px;
+    color:#666;
+    font-size:14px;
+}
+
+@media(max-width:600px){
+
+    h1{
+        font-size:2rem;
+    }
+
+    .container{
+        padding:20px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="Articles.html">Articles</a>
+    <a href="Resources.html">Resources</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="active">Contact</a>
+</nav>
+
+<div class="container">
+
+    <h1>Contact TaxTalk</h1>
+
+    <p class="intro">
+        We'd love to hear from you. Use the information below to get in touch or learn more about TaxTalk.
+    </p>
+
+    <div class="contact-card">
+        <div class="contact-title">📧 Email</div>
+        <div class="contact-text">
+            Goatedsheriff@gmail.com
+        </div>
+    </div>
+
+    <div class="contact-card">
+        <div class="contact-title">📞 Phone</div>
+        <div class="contact-text">
+            (+1) 347-994-7158
+        </div>
+    </div>
+
+    <div class="contact-card">
+        <div class="contact-title">📍 Location</div>
+        <div class="contact-text">
+            Philadelphia, PA, USA
+        </div>
+    </div>
+
+    <div class="contact="contact-title">💬 Send Us a Message</div>
+        <div class="contact-text">
+            <form action="mailto:info@taxtalk.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 TaxTalk
+    </footer>
+
+</div>
+
+</body>
+</html>
